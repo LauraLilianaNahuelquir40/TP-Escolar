@@ -10,22 +10,22 @@ export class AsistenciaService {
 constructor(@InjectRepository(Asistencia) asistenciaRepository: Repository<Asistencia>){}
 
   create(createAsistenciaDto: CreateAsistenciaDto) {
-    return 'This action adds a new asistencia';
+    return 'Crea la asistencia';
   }
 
   findAll() {
-    return `This action returns all asistencia`;
+    return `Retorna la asistencia`;
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} asistencia`;
+    return `Retorna la asistencia a #${id} asistencia`;
   }
 
   update(id: number, updateAsistenciaDto: UpdateAsistenciaDto) {
-    return `This action updates a #${id} asistencia`;
+    return ` esta accion se actualiza a #${id} asistencia`;
   }
 
   remove(id: number) {
-    return `This action removes a #${id} asistencia`;
+    return `Remueve a #${id} asistencia`;
   }
 }
